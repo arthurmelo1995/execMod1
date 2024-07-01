@@ -13,7 +13,7 @@ class TestFuncoes(unittest.TestCase):
         self.assertEqual(verificar(14), "Buzz")
 
     def test_nao_divisivel(self):
-        self.assertEqual(verificar(8), "O número não é divisível por 5 ou 7.")
+        self.assertEqual(verificar(8), "miss")
 
 if __name__ == '_main_':
     unittest.main()
